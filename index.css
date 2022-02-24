@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+#leftDiv {
+  flex: 1;
+  height: 100%;
+  background-color: coral;
+  /* margin: 0; */
+}
+
+#rightDiv {
+  flex: 1;
+  height: 500px;
+  background-color: cyan;
+  /* margin: 0; */
+}
+
+#input {
+  height: 10rem;
+  width: 13rem;
+  margin-top: 20px;
+}
+
+#text-div {
+  background-color: wheat;
+  margin: 25px;
+}
+
+.button {
+  margin: 5px;
+  border-color: chartreuse;
+}
+
+.button2 {
+  margin: 5px;
+  border-color: rgb(202, 24, 24);
+}
+
+#strike {
+  text-decoration: line-through;
+}
